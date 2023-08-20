@@ -97,6 +97,15 @@ if __name__ == "__main__":
         elif "open stackoverflow" in query:
             # Open Stack Overflow in the default web browser
             webbrowser.open("stackoverflow.com")
+         elif "open whatsapp" in query:
+            # Open whatsapp in the default web browser
+            webbrowser.open("web.whatsapp.com")
+        elif "open instagram" in query:
+            # Open instagram in the default web browser
+            webbrowser.open("instagram.com")
+        elif "open insta" in query:
+            # Open instagram in the default web browser
+            webbrowser.open("instagram.com")
         elif "play music" in query:
             # Play music from the specified directory
             music_dir = "D:\\Non Critical\\songs\\Favorite Songs2"
